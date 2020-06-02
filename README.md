@@ -1,4 +1,4 @@
-# Electrical-Discharge
+# Dielectric-Discharge
 Simulation of electrical discharge in an inhomogenous isulator uisng c++.
 
 *compile command*: g++ Main.cpp
