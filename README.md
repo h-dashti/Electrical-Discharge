@@ -7,8 +7,7 @@ We develop a model of an electrical discharge in inhomogenous isulator. (for exa
 
 2- We using Relaxation method to compuate phi_i for empty sites in circle.
 
-3- Assign a random number r to each empty in circle. The random number r_i at site i represents a breakdown coefficent and the random
-	inhomegenus nature of insulator.
+3- Assign a random number r to each empty in circle. The random number r_i at site i represents a breakdown coefficent and the random inhomegenus nature of insulator.
 
 4- The perimeter sites are the neigbour sites of the discharged pattern(occuiped sites). We form the product r_i*(phi_i)^a for each perimeter site i , where a is adjustable parameters.
 
@@ -17,6 +16,6 @@ We develop a model of an electrical discharge in inhomogenous isulator. (for exa
 6- We use the Relaxation method to recaclulate the value of potential at the remaining unoccuiped sites, and then we repeat steps (4) -(6).
 
 
-Site(x,y) = 1	:	represnet occupied site.
-Site(x,y) = 2	:	represnet a perimeter site.
+Site(x,y) = 1	:	represnet occupied site.<br/>
+Site(x,y) = 2	:	represnet a perimeter site.<br/>
 Site(x,y) = 0	:	represnet an un tested site(empty).
