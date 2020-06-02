@@ -1,7 +1,7 @@
 # Dielectric-Discharge
-Simulation of electrical discharge in an inhomogenous isulator uisng c++.
+Simulation of electrical discharge in an inhomogenous insulator uisng c++.
 
-*compile command*: g++ Main.cpp
+**compile command**: g++ Main.cpp
 
 We develop a model of an electrical discharge in an inhomogenous isulator (e.g., lighting ). When an elctrical discharging occurs the elctrical potential phi, staistfy Laplace equation( Laplaican(phi) = 0 ).  The model specified by these steps:
 
