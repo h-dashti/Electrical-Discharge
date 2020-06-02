@@ -1,8 +1,9 @@
 # Electrical-Discharge
+Simulation of electrical discharge in an inhomogenous isulator uisng c++.
 
 *compile command*: g++ Main.cpp
 
-We develop a model of an electrical discharge in inhomogenous isulator. (for example lighting ). When an elctrical discharging occurs the elctrical potential phi, staistfy Laplace equation( Laplaican(phi) = 0 ).  The model specified by these steps:
+We develop a model of an electrical discharge in an inhomogenous isulator (e.g., lighting ). When an elctrical discharging occurs the elctrical potential phi, staistfy Laplace equation( Laplaican(phi) = 0 ).  The model specified by these steps:
 
 1- Consider a large boundary circle of radius R and place charge source at origin. Choose the potential phi=0 at the origin(ocuiped site)
 	and phi=1 for sites on circumference of the circle. The radius R should be larger than the radius of the growing pattern. 
