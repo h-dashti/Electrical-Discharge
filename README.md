@@ -19,6 +19,6 @@ We develop a model of an electrical discharge in an inhomogenous isulator (e.g.,
 6- We use the Relaxation method to recaclulate the value of potential at the remaining unoccuiped sites, and then we repeat steps (4) -(6).
 
 
-Site(x,y) = 1	:	represnet occupied site.<br/>
-Site(x,y) = 2	:	represnet a perimeter site.<br/>
-Site(x,y) = 0	:	represnet an un tested site(empty).
+Site(x,y) = 1	:	represnets occupied site.<br/>
+Site(x,y) = 2	:	represnets perimeter site.<br/>
+Site(x,y) = 0	:	represnets un tested site(empty).
